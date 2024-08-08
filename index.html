@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio de Rebecca</title>
+    <link rel="stylesheet" href="/src/assets/portfolio.css" />
+    <!-- font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- google font icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <section id="header">
+      <header>
+        <!-- Barre de navigation en position fixed top 0 -->
+        <nav class="navlist">
+          <a href="#about">À propos</a>
+          <a href="#skill">Compétences</a>
+          <a href="#projects">Projets</a>
+          <a href="#contact">Contact</a>
+          <button id="toggle-button" class="button-theme"><i class="fa-regular fa-sun"></i></i>
+          </i></button>
+        </nav>
+        <!-- Centrer logo et titre h1 -->
+        <div class="center">
+          <a href="#" class="logo"
+            ><img
+              src="/src/assets/img/guerriere-cyberpunk-dans-paysage-urbain.png"
+              alt="guerriere-cyberpunk"
+              id="wrap" /></a
+          ><br />
+          <h1 class="center-text typewriter">Rebecca FIESQUE</h1>
+          <p>Conceptrice développeuse d'applications</p>
+        </div>
+      </header>
+    </section>
+    <hr />
+    <main>
+      <!-- A PROPOS -->
+      <section id="about">
+        <h2 class="center-text">À propos de moi</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium,
+          incidunt?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, sint.
+        </p>
+      </section>
+      <hr />
+      <!-- COMPETENCES -->
+      <section id="skill">
+        <h2 class="center-text">Compétences</h2>
+        <div class="skill-flex">
+          <div class="container-skill cards">
+            <h3 class="center-text">Design</h3>
+            <div class="inline-skills">
+              <i class="fa-brands fa-figma"></i><p>Figma</p>
+            </div>
+            <div class="inline-skills">
+              <p>lorem1</p>
+            </div>
+            <div class="inline-skills">
+              <p>lorem1</p>
+            </div>
+          </div>
+          <div class="container-skill cards">
+            <h3 class="center-text">Front-End</h3>
+            <p>Lorem.</p>
+            <p>Lorem.</p>
+            <p>Lorem.</p>
+          </div>
+          <div class="container-skill cards">
+            <h3 class="center-text">Back-End</h3>
+            <i class="bx bxl-nodejs"></i>
+            <p>lorem1</p>
+            <i class="bx bxl-java"></i>
+            <p>lorem1</p>
+            <p>lorem1</p>
+          </div>
+          <div class="container-skill cards">
+            <h3 class="center-text">Autres</h3>
+            <div class="icon-inline">
+              <i class="bx bxl-git"></i>
+            </div>
+            <p>Git</p>
+            <i class="bx bxl-github"></i>
+            <p>GitHub</p>
+            <p></p>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- PROJETS -->
+      <section id="projects">
+        <h2 class="center-text">Mes Projets</h2>
+        <!-- 3 Cards projects -->
+        <div class="projects-flex">
+          <!-- Card project 1 -->
+          <div class="container-project cards">
+            <h3>Lorem, ipsum.</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              qui.
+            </p>
+            <div class="inline-block">
+              <p><i class="bx bxl-html5"></i></p>
+            </div>
+            <div class="inline-block">
+              <p><i class="bx bxl-html5"></i></p>
+            </div>
+            <div class="inline-block">
+              <p><i class="bx bxl-html5"></i></p>
+            </div>
+          </div>
+          <!-- Card project 2 -->
+          <div class="container-project cards">
+            <h3>Lorem, ipsum.</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              qui.
+            </p>
+          </div>
+          <!-- Card project 3 -->
+          <div class="container-project cards">
+            <h3>Lorem, ipsum.</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              qui.
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- CONTACT -->
+      <section id="contact">
+        <h2 class="center-text">Contactez-moi</h2>
+        <!-- Formulaire de contact -->
+        <form>
+          <label for="name">Nom :</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Votre nom"
+            required
+          />
+          <label for="email">Email :</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="votre@email.com"
+            required
+          />
+          <label for="message">Message :</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Ecrivez votre message ici..."
+            required
+          ></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer id="footer">
+      <h5>Made with love by @Rebecca</h5>
+      <p>&copy; 2024 R. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
